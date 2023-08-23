@@ -3,6 +3,7 @@ import reactLogo from "./assets/react.svg";
 import viteLogo from "/vite.svg";
 import "./App.css";
 import Navbar from "./components/Navbar/Navbar";
+import PriceList from "./components/PriceList/PriceList";
 
 
 function App() {
@@ -12,6 +13,7 @@ function App() {
     <div>
       <Navbar />
       <h1 className="text-7xl text-purple-600">Hello from tailwind</h1>
+      <PriceList/>
     </div>
   );
 }

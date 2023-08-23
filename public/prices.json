@@ -1,0 +1,63 @@
+[
+  {
+    "id": 1,
+    "name": "Smartphone X",
+    "price": 149.99,
+    "features": ["High-resolution display", "Dual-camera system", "Long battery life"]
+  },
+  {
+    "id": 2,
+    "name": "Laptop Pro",
+    "price": 999.99,
+    "features": ["Powerful processor", "Ample storage", "Retina display"]
+  },
+  {
+    "id": 3,
+    "name": "Wireless Headphones",
+    "price": 79.99,
+    "features": ["Noise-cancellation", "Bluetooth 5.0", "40-hour battery"]
+  },
+  {
+    "id": 4,
+    "name": "Smartwatch Elite",
+    "price": 199.99,
+    "features": ["Heart rate monitor", "GPS tracking", "Water-resistant"]
+  },
+  {
+    "id": 5,
+    "name": "Gaming Console X",
+    "price": 399.99,
+    "features": ["4K gaming support", "Dual controller", "Large game library"]
+  },
+  {
+    "id": 6,
+    "name": "Digital Camera Pro",
+    "price": 299.99,
+    "features": ["Interchangeable lenses", "4K video recording", "Wi-Fi connectivity"]
+  },
+  {
+    "id": 7,
+    "name": "Fitness Tracker Plus",
+    "price": 129.99,
+    "features": ["Step counter", "Sleep analysis", "Heart rate monitoring"]
+  },
+  {
+    "id": 8,
+    "name": "Wireless Speaker Deluxe",
+    "price": 149.99,
+    "features": ["360-degree sound", "Voice assistant integration", "Waterproof"]
+  },
+  {
+    "id": 9,
+    "name": "Tablet Master",
+    "price": 299.99,
+    "features": ["Large touchscreen", "Stylus support", "Multitasking"]
+  },
+  {
+    "id": 10,
+    "name": "Home Security System",
+    "price": 249.99,
+    "features": ["HD cameras", "Motion detection", "Smartphone alerts"]
+  }
+]
+
