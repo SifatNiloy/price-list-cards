@@ -13,23 +13,27 @@ const Navbar = () => {
   ];
 
   return (
-    <div>
-      <div onClick={() => setOpen(!open)}>
+    <nav className="bg-purple-400">
+      <div onClick={() => setOpen(!open)} className="md:hidden">
         <span>
-          {open === true ? 
+          {open === true ? (
             <Bars3Icon className="h-6 w-6 text-blue-500" />
-          : 
+          ) : (
             <XMarkIcon className="h-6 w-6 text-blue-500" />
-          }
+          )}
         </span>
       </div>
 
-      <ul className="md:flex">
+      <ul
+        className={`md:flex absolute md:static duration-500 bg-purple-400 pl-4 pb-4 pt-4  ${
+          open ? "top-6" : "-top-36"
+        }`}
+      >
         {routes.map((route) => (
           <Link key={route.id} route={route}></Link>
         ))}
       </ul>
-    </div>
+    </nav>
   );
 };
 
