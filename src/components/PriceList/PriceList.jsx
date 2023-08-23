@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import PriceCard from "../PriceCard/PriceCard";
+import Dashboard from "../Dashboard/Dashboard";
 
 const PriceList = () => {
   const [prices, setPrices] = useState([]);
@@ -18,6 +19,7 @@ const PriceList = () => {
           <PriceCard key={price.id} prices={price}></PriceCard>
         ))}
       </div>
+      
     </div>
   );
 };

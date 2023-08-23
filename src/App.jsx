@@ -6,7 +6,6 @@ import Navbar from "./components/Navbar/Navbar";
 import PriceList from "./components/PriceList/PriceList";
 import Dashboard from "./components/Dashboard/Dashboard";
 
-
 function App() {
   const [count, setCount] = useState(0);
 
@@ -14,8 +13,8 @@ function App() {
     <div>
       <Navbar />
       <h1 className="text-7xl text-purple-600">Hello from tailwind</h1>
-      <PriceList/>
-      <Dashboard/>
+      <PriceList />
+      <Dashboard />
     </div>
   );
 }
