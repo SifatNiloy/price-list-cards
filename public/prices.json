@@ -1,63 +1,218 @@
 [
-  {
-    "id": 1,
-    "name": "Smartphone X",
-    "price": 149.99,
-    "features": ["High-resolution display", "Dual-camera system", "Long battery life"]
+{
+"id": 1,
+"name": "iPhone 13 Pro",
+"price": 999,
+"features": ["5.4-inch Super Retina XDR display", "A15 Bionic chip", "Triple-lens rear camera system"]
+},
+{
+"id": 2,
+"name": "Samsung Galaxy S22 Ultra",
+"price": 1199,
+"features": ["6.8-inch Dynamic AMOLED 2X display", "Snapdragon 8 Gen 1 chip", "Quad-lens rear camera system"]
+},
+{
+"id": 3,
+"name": "Google Pixel 6 Pro",
+"price": 899,
+"features": ["6.7-inch OLED display", "Google Tensor chip", "Triple-lens rear camera system"]
+},
+{
+"id": 4,
+"name": "iPad Pro 12.9-inch (2021)",
+"price": 1099,
+"features": ["12.9-inch Liquid Retina XDR display", "M1 chip", "Ultra Wide front camera"]
+},
+{
+"id": 5,
+"name": "MacBook Pro 14-inch (2021)",
+"price": 1999,
+"features": ["14-inch Liquid Retina XDR display", "M1 Pro chip", "1080p FaceTime HD camera"]
+},
+{
+"id": 6,
+"name": "Dell XPS 13 (2022)",
+"price": 1199,
+"features": ["13.3-inch InfinityEdge display", "11th Gen Intel Core i5 processor", "16GB RAM"]
+},
+{
+"id": 7,
+"name": "HP Spectre x360 13 (2022)",
+"price": 1299,
+"features": ["13.3-inch OLED display", "11th Gen Intel Core i7 processor", "360-degree hinge"]
+},
+{
+"id": 8,
+"name": "Lenovo Yoga 9i (2022)",
+"price": 1399,
+"features": ["14-inch OLED display", "12th Gen Intel Core i7 processor", "Active Pen support"]
+},
+{
+"id": 9,
+"name": "Microsoft Surface Laptop Studio (2022)",
+"price": 1599,
+"features": ["14.4-inch PixelSense display", "11th Gen Intel Core i7 processor", "NVIDIA GeForce RTX 3050 Ti GPU"]
+},
+{
+"id": 10,
+"name": "Sony WH-1000XM5",
+"price": 399,
+"features": ["Industry-leading noise cancellation", "30 hours of battery life", "Adaptive Sound Control"]
+},
+{
+"id": 11,
+"name": "Bose QuietComfort 45",
+"price": 329,
+"features": ["Active noise cancellation", "24 hours of battery life", "Bluetooth connectivity"]
+},
+{
+"id": 12,
+"name": "Apple AirPods Pro",
+"price": 249,
+"features": ["Active noise cancellation", "Transparency mode", "Spatial audio"]
+},
+{
+"id": 13,
+"name": "Samsung Galaxy Buds Pro",
+"price": 199,
+"features": ["Active noise cancellation", "360 Audio", "ANC+ mode"]
+},
+{
+"id": 14,
+"name": "Jabra Elite 7 Pro",
+"price": 199,
+"features": ["Active noise cancellation", "HearThrough mode", "8 hours of battery life"]
+},
+{
+    "id": 15,
+    "name": "Asus ROG Zephyrus G14 (2022)",
+    "price": 1499,
+    "features": ["14-inch QHD display", "AMD Ryzen 9 6900HS processor", "NVIDIA GeForce RTX 3060 GPU"]
   },
   {
-    "id": 2,
-    "name": "Laptop Pro",
-    "price": 999.99,
-    "features": ["Powerful processor", "Ample storage", "Retina display"]
+    "id": 16,
+    "name": "Razer Blade 14 (2022)",
+    "price": 1699,
+    "features": ["14-inch QHD display", "AMD Ryzen 9 6900HX processor", "NVIDIA GeForce RTX 3070 Ti GPU"]
   },
   {
-    "id": 3,
-    "name": "Wireless Headphones",
-    "price": 79.99,
-    "features": ["Noise-cancellation", "Bluetooth 5.0", "40-hour battery"]
+    "id": 17,
+    "name": "Lenovo Legion 5 Pro (2022)",
+    "price": 1399,
+    "features": ["16-inch QHD display", "AMD Ryzen 7 6800H processor", "NVIDIA GeForce RTX 3060 GPU"]
   },
   {
-    "id": 4,
-    "name": "Smartwatch Elite",
-    "price": 199.99,
-    "features": ["Heart rate monitor", "GPS tracking", "Water-resistant"]
+    "id": 18,
+    "name": "MSI GE76 Raider (2022)",
+    "price": 2199,
+    "features": ["17.3-inch QHD display", "Intel Core i7-12700H processor", "NVIDIA GeForce RTX 3080 Ti GPU"]
   },
   {
-    "id": 5,
-    "name": "Gaming Console X",
-    "price": 399.99,
-    "features": ["4K gaming support", "Dual controller", "Large game library"]
+    "id": 19,
+    "name": "Acer Predator Triton 500 SE (2022)",
+    "price": 1999,
+    "features": ["16-inch QHD display", "Intel Core i7-12700H processor", "NVIDIA GeForce RTX 3070 Ti GPU"]
   },
   {
-    "id": 6,
-    "name": "Digital Camera Pro",
-    "price": 299.99,
-    "features": ["Interchangeable lenses", "4K video recording", "Wi-Fi connectivity"]
+    "id": 20,
+    "name": "Dell Alienware X15 R2 (2022)",
+    "price": 2499,
+    "features": ["15.6-inch QHD display", "Intel Core i7-12700H processor", "NVIDIA GeForce RTX 3080 Ti GPU"]
   },
   {
-    "id": 7,
-    "name": "Fitness Tracker Plus",
-    "price": 129.99,
-    "features": ["Step counter", "Sleep analysis", "Heart rate monitoring"]
+    "id": 21,
+    "name": "Razer BlackWidow V3 Pro",
+    "price": 199,
+    "features": ["Wireless mechanical keyboard", "Razer HyperSpeed technology", "Chroma RGB lighting"]
   },
   {
-    "id": 8,
-    "name": "Wireless Speaker Deluxe",
-    "price": 149.99,
-    "features": ["360-degree sound", "Voice assistant integration", "Waterproof"]
+    "id": 22,
+    "name": "Logitech G915 TKL",
+    "price": 199,
+    "features": ["Wireless mechanical keyboard", "Lightspeed technology", "Low-profile switches"]
   },
   {
-    "id": 9,
-    "name": "Tablet Master",
-    "price": 299.99,
-    "features": ["Large touchscreen", "Stylus support", "Multitasking"]
+    "id": 23,
+    "name": "Corsair K70 RGB TKL",
+    "price": 179,
+    "features": ["Mechanical keyboard", "Cherry MX switches", "Per-key RGB lighting"]
   },
   {
-    "id": 10,
-    "name": "Home Security System",
-    "price": 249.99,
-    "features": ["HD cameras", "Motion detection", "Smartphone alerts"]
+    "id": 24,
+    "name": "HyperX Alloy Origins Core",
+    "price": 129,
+    "features": ["Mechanical keyboard", "HyperX Aqua switches", "100% anti-ghosting"]
+  },
+  {
+    "id": 25,
+    "name": "Logitech G502 Hero",
+    "price": 99,
+    "features": ["Gaming mouse", "11 programmable buttons", "PMW3366 sensor"]
+  },
+  {
+    "id": 26,
+    "name": "Razer DeathAdder V2",
+    "price": 79,
+    "features": ["Gaming mouse", "7 programmable buttons", "Razer Focus+ sensor"]
+  },
+  {
+    "id": 27,
+    "name": "SteelSeries Rival 3 Wireless",
+    "price": 79,
+    "features": ["Wireless gaming mouse", "6 programmable buttons", "TrueMove Air sensor"]
+  },
+  {
+    "id": 28,
+    "name": "Logitech G Pro Wireless",
+    "price": 149,
+    "features": ["Wireless gaming mouse", "11 programmable buttons", "HERO sensor"]
+  },
+  {
+    "id": 29,
+    "name": "Asus TUF Gaming VG27AQ",
+    "price": 349,
+    "features": ["27-inch QHD display", "165Hz refresh rate", "FreeSync Premium Pro"]
+  },
+  {
+    "id": 30,
+    "name": "Samsung Odyssey G7",
+    "price": 499,
+    "features": ["27-inch QHD display", "240Hz refresh rate", "1ms response time"]
+  },
+  {
+    "id": 31,
+    "name": "LG UltraGear 27GP850-B",
+    "price": 449,
+    "features": ["27-inch QHD display", "165Hz refresh rate", "IPS panel"]
+  },
+  {
+    "id": 32,
+    "name": "Acer Predator XB273K",
+    "price": 599,
+    "features": ["27-inch IPS display", "144Hz refresh rate", "4K resolution"]
+  },
+  {
+    "id": 33,
+    "name": "BenQ EX2780Q",
+    "price": 399,
+    "features": ["27-inch QHD display", "75Hz refresh rate", "Eye-Care technology"]
+  },
+  {
+    "id": 34,
+    "name": "Razer Kiyo Pro",
+    "price": 199,
+    "features": ["1080p webcam", "HDR support", "Auto Focus"]
+  },
+  {
+    "id": 35,
+    "name": "Logitech Brio Ultra HD Webcam",
+    "price": 199,
+    "features": ["4K webcam", "HDR support", "USB-C connectivity"]
+  },
+  {
+    "id": 36,
+    "name": "Anker PowerConf C300 Webcam",
+    "price": 129,
+    "features": ["1080p webcam", "Pan/tilt/zoom", "Dual microphones"]
   }
 ]
-
