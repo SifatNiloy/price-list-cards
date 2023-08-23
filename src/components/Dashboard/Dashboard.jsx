@@ -20,6 +20,7 @@ const Dashboard = () => {
       setMarks(data);
     }
     fetchData();
+    console.log(marks)
   }, []);
 
   return (
