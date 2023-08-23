@@ -13,7 +13,7 @@ const PriceList = () => {
       <h2 className="text-center text-bold text-5xl text-purple-900 bg-purple-300">
         Affordable Pricing
       </h2>
-      <div className="grid grid-cols-3 gap-3">
+      <div className="grid md:grid-cols-3 gap-3">
         {prices.map((price) => (
           <PriceCard key={price.id} prices={price}></PriceCard>
         ))}
